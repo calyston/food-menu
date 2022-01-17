@@ -17,7 +17,7 @@ function App() {
         <Categories />
       </article>
       <article>
-        <Menu />
+        <Menu items={menuItems} />
       </article>
     </div>
   );

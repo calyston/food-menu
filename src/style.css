@@ -101,6 +101,7 @@ li {
 .page-container {
   width: 90%;
   margin: auto;
+  text-align: center;
 }
 
 /* Tablet & Laptop View */
@@ -153,16 +154,43 @@ button:hover {
   background-color: lightskyblue;
 }
 
-/* Forms */
-
-form {
-  display: flex;
-  flex-direction: column;
+img {
+  width: 33%;
+  height: auto;
 }
 
-input, textarea {
-  border: 1px solid lightgrey;
-  padding: 0.5rem 1rem;
-  max-width: 400px;
-  margin: 0.5rem 0;
+.item-info {
+  text-align: center;
+}
+
+.photo {
+  width: 25rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+/* Tablet & Laptop View */
+@media (min-width: 768px) {
+  .menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo {
+    width: 25rem;
+    height: 15rem;
+    object-fit: cover;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 1200px) {
+  .menu-item {
+    display: flex;
+  }
+  
+  .item-info {
+    margin: 0 1.5rem;
+    text-align: left;
+  }
 }

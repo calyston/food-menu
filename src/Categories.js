@@ -1,9 +1,16 @@
 import React from 'react';
 
-function Categories() {
+const Categories = ({ filterItems }) => {
   return (
-    <div>
-      <h2>Categories</h2>
+    <div className="categories-container">
+      <button className="filter-btn" onClick={() =>
+        filterItems('breakfast')}>Breakfast</button>
+      <button className="filter-btn" onClick={() =>
+        filterItems('main')}>Main</button>
+      <button className="filter-btn" onClick={() =>
+        filterItems('dessert')}>Dessert</button>
+      <button className="filter-btn" onClick={() =>
+        filterItems('drinks')}>Drinks</button>
     </div>
   );
 }

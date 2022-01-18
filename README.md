@@ -1,3 +1,21 @@
+# Food Menu
+
+Food menu made with React.
+
+### Live Preview: 
+
+
+## Key Features
+
+- Sort by category
+- Responsive CSS grid
+
+## Technologies Used
+React, CSS.
+
+#### Written by Christine Lyston
+#### Date: January 2021
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,13 +1,14 @@
-# Food Menu
+# Restaurant Menu
 
-Food menu made with React.
+Restaurant menu made with React.
 
 ### Live Preview: 
 
+https://calyston-foodmenu.netlify.app/
 
 ## Key Features
 
-- Sort by category
+- Sort menu items by category
 - Responsive CSS grid
 
 ## Technologies Used

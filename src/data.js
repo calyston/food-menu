@@ -2,7 +2,7 @@ const menu = [
   {
     id: 1,
     title: 'Pancakes',
-    category: 'breakfast',
+    category: 'Breakfast',
     price: 5,
     img: './images/pancakes.jpg',
     desc: `Delicious pancakes to fill your stomach`,
@@ -10,7 +10,7 @@ const menu = [
   {
     id: 2,
     title: 'Cereal',
-    category: 'breakfast',
+    category: 'Breakfast',
     price: 3,
     img: './images/cereal.jpg',
     desc: `Healthy cereal to start your day`,
@@ -18,7 +18,7 @@ const menu = [
   {
     id: 3,
     title: 'Croissants',
-    category: 'breakfast',
+    category: 'Breakfast',
     price: 4,
     img: './images/croissants.jpg',
     desc: `Freshly baked croissants`,
@@ -26,7 +26,7 @@ const menu = [
   {
     id: 4,
     title: 'Cheeseburger',
-    category: 'main',
+    category: 'Main',
     price: 8,
     img: './images/cheeseburger.jpg',
     desc: `Angus beef cheeseburger`,
@@ -34,7 +34,7 @@ const menu = [
   {
     id: 5,
     title: 'Panini',
-    category: 'main',
+    category: 'Main',
     price: 7,
     img: './images/panini.jpg',
     desc: `Tasty cheese and tomato panini`,
@@ -42,7 +42,7 @@ const menu = [
   {
     id: 6,
     title: 'Salad',
-    category: 'main',
+    category: 'Main',
     price: 7,
     img: './images/salad.jpg',
     desc: `A healthy and hearty salad`,
@@ -50,7 +50,7 @@ const menu = [
   {
     id: 7,
     title: 'Waffles',
-    category: 'dessert',
+    category: 'Dessert',
     price: 5,
     img: './images/waffles.jpg',
     desc: `Delicious Belgian waffles`,
@@ -58,7 +58,7 @@ const menu = [
   {
     id: 8,
     title: 'Mille Feuille',
-    category: 'dessert',
+    category: 'Dessert',
     price: 6,
     img: './images/millefeuille.jpg',
     desc: `Succulent mille feuille`,
@@ -66,7 +66,7 @@ const menu = [
   {
     id: 9,
     title: 'Ice Cream',
-    category: 'dessert',
+    category: 'Dessert',
     price: 4,
     img: './images/icecream.jpg',
     desc: `Classic ice cream`,
@@ -74,7 +74,7 @@ const menu = [
   {
     id: 10,
     title: 'Milkshake',
-    category: 'dessert',
+    category: 'Dessert',
     price: 4,
     img: './images/milkshake.jpg',
     desc: `Delicious milkshake in various flavours`,
@@ -82,7 +82,7 @@ const menu = [
   {
     id: 11,
     title: 'Orange Juice',
-    category: 'drinks',
+    category: 'Drinks',
     price: 2,
     img: './images/orangejuice.jpg',
     desc: `Freshly squeezed orange juice`,
@@ -90,7 +90,7 @@ const menu = [
   {
     id: 12,
     title: 'Soda',
-    category: 'drinks',
+    category: 'Drinks',
     price: '1.50',
     img: './images/coke.jpg',
     desc: `A selection of popular sodas`,
@@ -98,7 +98,7 @@ const menu = [
   {
     id: 13,
     title: 'Tea',
-    category: 'drinks',
+    category: 'Drinks',
     price: 2,
     img: './images/tea.jpg',
     desc: `English breakfast tea`,
@@ -106,7 +106,7 @@ const menu = [
   {
     id: 14,
     title: 'Coffee',
-    category: 'drinks',
+    category: 'Drinks',
     price: 2,
     img: './images/coffee.jpg',
     desc: `Fresh coffee`,

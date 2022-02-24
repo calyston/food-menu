@@ -15,7 +15,7 @@ https://calyston-foodmenu.netlify.app/
 React, CSS.
 
 #### Written by Christine Lyston
-#### Date: January 2021
+#### Date: January 2022
 
 # Getting Started with Create React App
 
